@@ -1,10 +1,11 @@
-package com.sequeniatest
+package com.sequeniatest.presentation
 
 import android.os.Bundle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.sequeniatest.R
 
 class MainActivity : AppCompatActivity() {
 
