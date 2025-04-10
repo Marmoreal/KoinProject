@@ -20,5 +20,11 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "SequeniaTest"
+
 include(":app")
- 
+includeDir(":movies", "modules/movies")
+
+fun includeDir(moduleName: String, modulePath: String) {
+    include(moduleName)
+    project(moduleName).projectDir = File(rootDir, modulePath)
+}
