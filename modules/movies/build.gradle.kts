@@ -1,6 +1,8 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.parcelize)
+    alias(libs.plugins.ksp)
 }
 
 android {
@@ -43,4 +45,11 @@ dependencies {
 
     implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.navigation.ui)
+
+    implementation(libs.koin)
+
+    implementation(libs.retrofit)
+    implementation(libs.moshi)
+    implementation(libs.converter.moshi)
+    implementation(libs.logging.interceptor)
 }
