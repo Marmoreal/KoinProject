@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="progressIndicatorColor"/>
+
+    <attr name="fontHeading0" format="reference" />
+    <attr name="fontHeading1" format="reference" />
+    <attr name="fontHeading2" format="reference" />
+    <attr name="fontHeading3" format="reference" />
+    <attr name="fontHeading3Regular" format="reference" />
+    <attr name="fontCaption1" format="reference" />
+    <attr name="fontCaption1Medium" format="reference" />
+    <attr name="fontCaption2" format="reference" />
+    <attr name="fontBody1" format="reference" />
+</resources>

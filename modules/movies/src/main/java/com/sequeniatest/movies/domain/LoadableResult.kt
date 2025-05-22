@@ -8,4 +8,10 @@ sealed interface LoadableResult<R> {
     ) : LoadableResult<R>
 
     class Failure<R> : LoadableResult<R>
+
+    val isLoading: Boolean get() = this is Loading
+
+    val isSuccess: Boolean get() = this is Success
+
+    val isFailure: Boolean get() = this is Failure
 }

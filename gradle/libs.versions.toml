@@ -9,11 +9,12 @@ coreKtx = "1.15.0"
 appcompat = "1.7.0"
 material = "1.12.0"
 activity = "1.10.1"
-constraintlayout = "2.2.1"
 navigation = "2.8.9"
+recyclerview = "1.3.2"
+coil = "2.7.0"
 
 # DI
-koin = "4.0.2"
+koin = "4.0.3"
 
 # Network
 retrofit = "2.11.0"
@@ -26,7 +27,8 @@ androidx-core-ktx = { module = "androidx.core:core-ktx", version.ref = "coreKtx"
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
 material = { module = "com.google.android.material:material", version.ref = "material" }
 androidx-activity = { module = "androidx.activity:activity-ktx", version.ref = "activity" }
-androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "constraintlayout" }
+androidx-recyclerview = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerview" }
+coil = { module = "io.coil-kt:coil", version.ref = "coil" }
 
 koin = { module = "io.insert-koin:koin-android", version.ref = "koin" }
 
@@ -37,6 +39,7 @@ retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit
 moshi = { module = "com.squareup.moshi:moshi-kotlin", version.ref = "moshi" }
 converter-moshi = { module = "com.squareup.retrofit2:converter-moshi", version.ref = "moshi-converter" }
 logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "logging-interceptor" }
+moshi-kotlin-codegen = { module = "com.squareup.moshi:moshi-kotlin-codegen", version.ref = "moshi" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

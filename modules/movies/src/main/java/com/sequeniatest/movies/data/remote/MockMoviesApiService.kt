@@ -1,8 +1,8 @@
 package com.sequeniatest.movies.data.remote
 
-import com.sequeniatest.movies.data.remote.model.ApiGenre
 import com.sequeniatest.movies.data.remote.model.ApiMovie
 import com.sequeniatest.movies.data.remote.model.ApiMoviesResponse
+import kotlinx.coroutines.delay
 
 class MockMoviesApiService() : MoviesApiService {
     override suspend fun getMovies() = ApiMoviesResponse(
@@ -16,7 +16,7 @@ class MockMoviesApiService() : MoviesApiService {
                 imageUrl = "https://st.kp.yandex.net/images/film_iphone/iphone360_326.jpg",
                 description = "Успешный банкир Энди Дюфрейн обвинен в убийстве собственной жены и ее любовника. Оказавшись в тюрьме под названием Шоушенк, он сталкивается с жестокостью и беззаконием, царящими по обе стороны решетки. Каждый, кто попадает в эти стены, становится их рабом до конца жизни. Но Энди, вооруженный живым умом и доброй душой, отказывается мириться с приговором судьбы и начинает разрабатывать невероятно дерзкий план своего освобождения.",
                 genres = listOf(
-                    ApiGenre.DRAMA,
+                    "драма",
                 ),
             ),
             ApiMovie(
@@ -28,10 +28,10 @@ class MockMoviesApiService() : MoviesApiService {
                 imageUrl = "https://st.kp.yandex.net/images/film_iphone/iphone360_435.jpg",
                 description = "Обвиненный в страшном преступлении, Джон Коффи оказывается в блоке смертников тюрьмы «Холодная гора». Вновь прибывший обладал поразительным ростом и был пугающе спокоен, что, впрочем, никак не влияло на отношение к нему начальника блока Пола Эджкомба, привыкшего исполнять приговор. Гигант удивил всех позже, когда выяснилось, что он обладает невероятной магической силой…",
                 genres = listOf(
-                    ApiGenre.FANTASY,
-                    ApiGenre.DRAMA,
-                    ApiGenre.CRIME,
-                    ApiGenre.DETECTIVE,
+                    "фэнтези",
+                    "драма",
+                    "криминал",
+                    "детектив",
                 ),
             ),
             ApiMovie(
@@ -43,8 +43,8 @@ class MockMoviesApiService() : MoviesApiService {
                 imageUrl = "https://st.kp.yandex.net/images/film_iphone/iphone360_448.jpg",
                 description = "От лица главного героя Форреста Гампа, слабоумного безобидного человека с благородным и открытым сердцем, рассказывается история его необыкновенной жизни. Фантастическим образом превращается он в известного футболиста, героя войны, преуспевающего бизнесмена. Он становится миллиардером, но остается таким же бесхитростным, глупым и добрым. Форреста ждет постоянный успех во всем, а он любит девочку, с которой дружил в детстве, но взаимность приходит слишком поздно.",
                 genres = listOf(
-                    ApiGenre.DRAMA,
-                    ApiGenre.MELODRAMA,
+                    "драма",
+                    "мелодрама",
                 ),
             ),
         )

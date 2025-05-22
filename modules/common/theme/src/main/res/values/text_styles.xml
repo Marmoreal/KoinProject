@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Font">
+        <item name="android:textColor">?android:textColor</item>
+        <item name="fontFamily">@font/font_roboto_regular</item>
+    </style>
+
+    <style name="Font.Heading_0">
+        <item name="fontFamily">@font/font_roboto_bold</item>
+        <item name="android:textSize">@dimen/text_26</item>
+        <item name="lineHeight">@dimen/text_32</item>
+    </style>
+
+    <style name="Font.Heading_1">
+        <item name="fontFamily">@font/font_roboto_bold</item>
+        <item name="android:textSize">@dimen/text_24</item>
+        <item name="lineHeight">@dimen/text_28</item>
+    </style>
+
+    <style name="Font.Heading_2">
+        <item name="fontFamily">@font/font_roboto_bold</item>
+        <item name="android:textSize">@dimen/text_20</item>
+        <item name="lineHeight">@dimen/text_22</item>
+    </style>
+
+    <style name="Font.Heading_3">
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="lineHeight">@dimen/text_20</item>
+    </style>
+
+    <style name="Font.Heading_3.Bold">
+        <item name="fontFamily">@font/font_roboto_bold</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="lineHeight">@dimen/text_20</item>
+    </style>
+
+    <style name="Font.Caption_1">
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="lineHeight">@dimen/text_20</item>
+    </style>
+
+    <style name="Font.Caption_1.Medium">
+        <item name="fontFamily">@font/font_roboto_medium</item>
+        <item name="android:textSize">@dimen/text_16</item>
+        <item name="lineHeight">@dimen/text_16</item>
+    </style>
+
+    <style name="Font.Caption_2">
+        <item name="fontFamily">@font/font_roboto_medium</item>
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="lineHeight">@dimen/text_16</item>
+    </style>
+
+    <style name="Font.Body_1">
+        <item name="android:textSize">@dimen/text_14</item>
+        <item name="lineHeight">@dimen/text_20</item>
+    </style>
+</resources>

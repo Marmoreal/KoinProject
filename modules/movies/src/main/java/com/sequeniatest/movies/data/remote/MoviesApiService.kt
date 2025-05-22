@@ -6,6 +6,6 @@ import retrofit2.http.GET
 interface MoviesApiService {
 
     /** Получить список вопросов к товару */
-    @GET("films")
+    @GET("films.json")
     suspend fun getMovies(): ApiMoviesResponse
 }

@@ -1,3 +1,9 @@
 <resources>
 
+    <string name="movies_title">Фильмы</string>
+    <string name="movies_genres_title">Жанры</string>
+    <string name="movies_poster_size_ratio">"160:222"</string>
+
+    <string name="network_error_text">Ошибка подключения сети</string>
+    <string name="try_again">Повторить</string>
 </resources>

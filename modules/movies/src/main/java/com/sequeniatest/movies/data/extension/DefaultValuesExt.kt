@@ -1,4 +1,4 @@
-package com.sequeniatest.movies.data.helper
+package com.sequeniatest.movies.data.extension
 
 fun Int?.orDefault(default: Int = 0): Int = this ?: default
 

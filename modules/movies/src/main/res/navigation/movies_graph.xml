@@ -9,7 +9,7 @@
 
     <fragment
         android:id="@+id/moviesFragment"
-        android:name="com.sequeniatest.movies.presentation.MoviesFragment"
+        android:name="com.sequeniatest.movies.presentation.movies.MoviesFragment"
         android:label="fragment_movies"
         tools:layout="@layout/fragment_movies" />
 </navigation>

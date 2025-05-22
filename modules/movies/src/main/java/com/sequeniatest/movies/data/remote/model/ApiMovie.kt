@@ -12,5 +12,5 @@ data class ApiMovie(
     val rating: Double?,
     @Json(name = "image_url") val imageUrl: String?,
     val description: String?,
-    val genres: List<ApiGenre?>?,
+    val genres: List<String?>?,
 )

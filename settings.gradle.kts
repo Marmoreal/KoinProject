@@ -23,6 +23,7 @@ rootProject.name = "SequeniaTest"
 
 include(":app")
 includeDir(":movies", "modules/movies")
+includeDir(":theme", "modules/common/theme")
 
 fun includeDir(moduleName: String, modulePath: String) {
     include(moduleName)

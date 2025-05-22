@@ -1,0 +1,30 @@
+<resources>
+
+    <style name="Theme.SequeniaTest" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+
+        <item name="colorPrimary">@color/funnel_cloud</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="toolbarStyle">@style/Theme.SequeniaTest.ToolbarStyle</item>
+
+        <item name="progressIndicatorColor">@color/qing_yellow</item>
+
+        <item name="fontHeading0">@style/Font.Heading_0</item>
+        <item name="fontHeading1">@style/Font.Heading_1</item>
+        <item name="fontHeading2">@style/Font.Heading_2</item>
+        <item name="fontHeading3">@style/Font.Heading_3.Bold</item>
+        <item name="fontHeading3Regular">@style/Font.Heading_3</item>
+        <item name="fontCaption1">@style/Font.Caption_1</item>
+        <item name="fontCaption1Medium">@style/Font.Caption_1.Medium</item>
+        <item name="fontCaption2">@style/Font.Caption_2</item>
+        <item name="fontBody1">@style/Font.Body_1</item>
+    </style>
+
+    <style name="DefaultShapeAppearance">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+</resources>

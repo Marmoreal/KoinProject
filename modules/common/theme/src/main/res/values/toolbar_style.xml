@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.SequeniaTest.ToolbarStyle" parent="Widget.MaterialComponents.Toolbar">
+        <item name="titleTextColor">?colorOnPrimary</item>
+        <item name="android:background">?colorPrimary</item>
+        <item name="titleCentered">true</item>
+
+        <item name="android:titleTextStyle">@style/ToolbarTitleTextStyle</item>
+        <item name="titleTextAppearance">@style/ToolbarTitleTextStyle</item>
+        <item name="android:titleTextAppearance">@style/ToolbarTitleTextStyle</item>
+    </style>
+
+    <style name="ToolbarTitleTextStyle" parent="TextAppearance.Material3.ActionBar.Title">
+        <item name="fontFamily">@font/font_roboto_medium</item>
+        <item name="android:textSize">@dimen/text_18</item>
+    </style>
+
+</resources>

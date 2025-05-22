@@ -42,14 +42,20 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
+    implementation(libs.androidx.recyclerview)
 
     implementation(libs.androidx.navigation.fragment)
     implementation(libs.androidx.navigation.ui)
+
+    implementation(libs.coil)
 
     implementation(libs.koin)
 
     implementation(libs.retrofit)
     implementation(libs.moshi)
     implementation(libs.converter.moshi)
-    implementation(libs.logging.interceptor)
+    debugImplementation(libs.logging.interceptor)
+    ksp(libs.moshi.kotlin.codegen)
+
+    implementation(project(":theme"))
 }
