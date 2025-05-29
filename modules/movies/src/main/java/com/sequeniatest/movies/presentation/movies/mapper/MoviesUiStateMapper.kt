@@ -15,12 +15,12 @@ class MoviesUiStateMapper(
         movies: List<Movie>,
     ): MoviesUiState {
         val titleGenres = UiGenre.HeaderGenre(context.getString(R.string.movies_genres_title))
-        val sortedGenres = movies.flatMap { it.genres }.toSortedSet().toMutableList().map {
+        val sortedGenres = movies.flatMap { it.genres }.map {
             UiGenre.Genre(
                 title = it,
                 isSelected = false,
             )
-        }
+        }.distinct()
 
         val titleMovies = UiMovie.HeaderMovie(context.getString(R.string.movies_title))
         val sortedMovies = movies.sortedBy { it.localizedName }
